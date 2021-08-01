@@ -1,0 +1,216 @@
+@media only screen and (max-width:767px) {
+    .hero-inner-content h1 {
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .hero-inner-content p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .welearner-search input[type="submit"] {
+        padding: 8px 16px;
+        font-size: 16px;
+        top: 12px;
+    }
+    .welearner-search input[type="search"] {
+        padding: 20px;
+        font-size: 16px;
+    }
+    .header--shape.shape-dot {
+        bottom: -19px;
+        left: 27px;
+        max-width: 55px;
+    }
+    .header--shape.shape-sm {
+        max-width: 85px;
+    }
+    .course-cate-imte {
+        margin-bottom: 30px;
+    }
+    .course-cate-imte h4 {
+        font-size: 16px;
+    }
+    .fnf-item {
+        margin-bottom: 25px;
+    }
+    .fnf-item h1 {font-size: 53px;line-height: 62px;}
+
+    .fnf-item h4 {
+        font-size: 22px;
+    }
+    .header--shape.circle-bottom {
+        bottom: 26%;
+        left: 11%;
+    }
+    .welearner-search {
+        width: 100%;
+    }
+    .hero-image {
+        position: inherit;
+    }
+    
+    .hero-content-area {
+        height: auto;
+        padding-top: 150px;
+    }
+    .section-heading h1 {
+        font-size: 26px;
+    }
+    .testimonial-heading h5 {
+        line-height: 27px;
+        font-size: 16px;
+    }
+
+    .client-logo {
+        margin-bottom: 30px;
+    }
+    .cta-item {
+        margin-bottom: 25px;
+    }
+
+    .footer-widget {
+        margin-top: 30px;
+    }
+    .client-logo-area .col-lg-2 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .client-logo img {
+        max-width: 70px;
+    }
+    .section-heading.testimonial-heading {
+        display: inherit !important;
+    }
+    
+    .testimonial-heading h1, .testimonial-heading h5 {
+        max-width: 100%;
+    }
+    
+    .testimonial-heading h5 {
+        margin-top: 20px;
+    }
+    .team-carousel {
+        margin: 0;
+    }
+    .header--shape {
+        max-width: 300px;
+    }
+    .course-cate-imte a:after {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 22px;
+        top: -10px;
+    }
+    .course-cate-imte a {
+        padding-left: 50px;
+    }
+    .cta-item a {
+        width: 100%;
+    }
+    .cta-item p {
+        padding: 0 0;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .hero-inner-content h1 {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .fnf-item h4 {
+        font-size: 22px;
+    }
+    .fnf-item h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .fnf-item {
+        margin-bottom: 30px;
+    }
+    .client-logo-area .col-lg-2 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .course-cate-imte a:after {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 22px;
+        top: -10px;
+    }
+    .course-cate-imte a {
+        padding-left: 50px;
+    }
+    
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.hero-content-area {
+        height: auto;
+        padding-top: 150px;
+    }    
+    .course-cate-imte h4 {
+        font-size: 15px;
+    }
+    .course-cate-imte a:after {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 22px;
+        top: -10px;
+    }
+    .course-cate-imte a {
+        padding-left: 50px;
+    }
+    .hero-image {
+        position: inherit;
+    }
+    .section-heading h1 {
+        font-size: 28px;
+    }
+    .cta-item a {
+        width: 100%;
+    }
+    .cta-item {
+        padding: 30px 20px;
+    }
+    .cta-item p {
+        padding: 0 20px;
+    }
+    .cta-item h1 {
+        font-size: 25px;
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+    .client-logo img {
+        max-width: 55px;
+    }
+    .testimonial-item{
+        padding-right: 0;
+    }
+}
+
+
+@media only screen and (min-width:1550px) {
+    .header--shape {
+        top: -152px;
+        right: -83px;
+        max-width: 716px;
+    }
+    .hero-image {
+        bottom: -42px;
+        right: -100px;
+        max-width: 590px;
+    }
+    .header--shape.circle-right {
+        left: auto;
+        right: 9%;
+        top: auto;
+        bottom: 22%;
+    }
+}

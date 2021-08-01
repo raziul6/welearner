@@ -1,0 +1,720 @@
+/*!
+Theme Name: welearner
+Theme URI: https://wedevs.com/welearner
+Author: wedevs
+Author URI: https://wedevs.com/
+Description: welearner job assignment task develop by Raziul
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: welearner
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+/*====================================================================
+02. Reset
+====================================================================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*====================================================================
+03. Global Settings
+====================================================================*/
+
+body {    
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    color: #101030;
+    line-height: 25px;
+    font-weight: 400;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #101030;
+    transition: .4s;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #6058F1;
+}
+
+button,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin: 0px;
+    background: none;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Typography */
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+textarea {
+    overflow: hidden;
+}
+
+p {
+    position: relative;
+    line-height: 30px;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+/*Button Css*/
+.weleaner-btn {
+    background: #fff;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #6058F1;
+    border-radius: 2px;
+    transition: .4s;
+}
+.weleaner-btn:hover {background: #6058F1;color: #fff;}
+.weleaner-btn.bg-less {
+    background: transparent;
+    color: #fff;
+}
+.primery-btn {
+    color: #4640DF;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #4640DE;
+    transition: .4s;
+}
+.primery-btn:hover {
+    background: #4640DE;
+    color: #fff;
+}
+.preview-btn a {
+    padding: 8px 20px;
+}
+/*Header Css*/
+header.weleaner-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 11;
+    padding-top: 50px;
+}
+.logo a {
+    color: #fff;
+}
+
+.logo a h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/*Slider Css*/
+.hero-slider-area {
+    background: #3028AF;
+    position: relative;
+    overflow: hidden;
+}
+.hero-slider-area .container {
+    position: relative;
+}
+.header--shape.circle-bottom {
+    top: auto;
+    bottom: 10%;
+    left: 17%;
+}
+.header--shape.circle-top {
+    top: 16%;
+    left: 27%;
+}
+.header--shape.shape-dot {
+    bottom: -38px;
+    left: 70px;
+    top: auto;
+}
+.header--shape.shape-title {
+    top: 18%;
+    left: -57px;
+    max-width: 70px;
+}
+.header--shape.circle-right {
+    left: auto;
+    right: 5%;
+    top: auto;
+    bottom: 30%;
+}
+.hero-content-area {
+    height: 700px;
+}
+
+.hero-inner-content h1 {
+    color: #fff;
+    font-size: 65px;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+
+.hero-inner-content h1 span {
+    font-weight: 400;
+}
+
+.hero-inner-content p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.welearner-search {
+    background: #ffff;
+    width: 700px;
+    position: relative;
+    border: 1px solid #EEEDFD;
+}
+
+.welearner-search input[type="search"] {
+    border: none;
+    background: transparent;
+    padding: 30px 20px;
+    width: 70%;
+    font-size: 20px;
+    color: #556170;
+}
+
+.welearner-search input[type="submit"] {
+    background: #4640DE;
+    color: #fff;
+    padding: 12px 40px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 2px;
+    float: right;
+    position: absolute;
+    top: 17px;
+    right: 17px;
+}
+.hero-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 555px;
+    z-index: 11;
+}
+.hero-inner-content {
+    position: relative;
+    z-index: 111;
+}
+.header--shape {
+    position: absolute;
+    top: -120px;
+    right: -60px;
+    max-width: 550px;
+}
+.header--shape.shape-sm {
+    right: auto;
+    left: -50px;
+    top: 40%;
+    max-width: 125px;
+}
+/* Section Heading */
+.section-heading {
+    margin-bottom: 50px;
+}
+
+.section-heading h1 {
+    font-size: 44px;
+}
+
+.section-heading a {
+    color: #4640DE;
+    border: 1px solid #4640DE;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .4s;
+}
+.section-heading a:hover {
+    background: #4640DE;
+    color: #fff;
+}
+/* Course Style */
+.course-item {
+    border: 1px solid #EEEDFD;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.toprated-couse-area {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.course-infot h4 {
+    line-height: 32px;
+}
+.price {
+    font-size: 20px;
+}
+
+.price {
+    color: #4640DE;
+    font-weight: 700;
+}
+
+.price del {
+    color: #D3D2DF;
+    font-weight: 400;
+    margin-right: 4px;
+}
+.course-infot .author-name {
+    color: #1C2D41;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 25px;
+    display: block;
+}
+.course-meta span {
+    padding: 6px 20px;
+    border-radius: 19px;
+}
+.course-infot .author-name img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.course-footer {
+    border-top: 1px solid #EEEDFD;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.course-meta svg {
+    width: 14px;
+    height: 14px;
+    color: #D3D2DF;
+}
+.course-meta .rated {
+    color: #FFC107;
+}
+.course-meta {
+    margin-bottom: 15px;
+}
+
+.course-img {
+    margin-bottom: 25px;
+}
+/* Trending Topic Css*/
+.course-cate-imte a {
+    position: relative;
+    padding-left: 60px;
+}
+
+.course-cate-imte a:after {
+    background: #C7C5F6;
+    content: "\f02c";
+    left: 0;
+    position: absolute;
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 15px;
+    font-size: 30px;
+    color: #0A00F2;
+    top: -9px;
+}
+
+.course-cate-imte.business a:after {
+    content: "\f5fd";
+}
+
+.course-cate-imte.\33 d-animation a:after {
+    content: "\f1b2";
+    background:#F9DBC3;
+    color: #FF7100;
+}
+.course-cate-imte.development a:after {
+    content: "\f546";
+    background:#FEE8B1;
+    color: #D69900;
+}
+.course-cate-imte.development a:after {
+    content: "\f0a1";
+    background:#FACACA;
+    color: #FF2020;
+}
+.course-cate-imte h4 {
+    color: #1C2D41;
+    font-weight: 500;
+    font-size: 22px;
+}
+.trending-couse-area.individual-topic {
+    padding-top: 150px;
+}
+.trending-topic-area {
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+.course-cate-imte {
+    border: 1px solid #E8EAEC;
+    border-radius: 12px;
+    padding: 25px 25px;
+    margin-bottom: 50px;
+}
+/* FunFact Css */
+.fnf-item h1 {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+
+.fnf-item h4 {
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.funfactor-area {
+    padding-bottom: 84px;
+}
+/* Testimonial */
+.testimonial-item .testimonial-head img {
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 22px;
+}
+.testimonial-head span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.testimonial-head h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.testimonial-head {
+    margin-bottom: 30px;
+}
+.testimonial-heading h1 {
+    max-width: 40%;
+    flex: 0 0 40%;
+}
+.testimonial-area {
+    background: rgba(250, 250, 254);
+    padding: 120px 0;
+}
+.testimonial-heading h5 {
+    max-width: 60%;
+    flex: 0 0 50%;
+    line-height: 32px;
+    font-size: 20px;
+    position: relative;
+}
+.testimonial-heading h5 img {
+    position: absolute;
+    top: 3px;
+    left: -79px;
+}
+
+.testimonial-info h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.testimonial-item {
+    padding-right: 50px;
+}
+/* Client logo Css */
+.client-logo img {
+    max-width: 100px;
+}
+.client-logo-area .col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+}
+.client-logo-area {
+    padding-bottom: 120px;
+    padding-top: 80px;
+}
+.client-logo-area .section-heading p {
+    margin: 0;
+}
+/* Team Style */
+.team-carousel .team-item .team-img {
+    width: auto;
+}
+.team-item {
+    position: relative;
+    margin-bottom: 50px;
+}
+.team-member-area {
+    padding-bottom: 70px;
+}
+.team-social-link {
+    position: absolute;
+    bottom: -20px;
+    left: 13px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.team-img {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.team-img:after {
+    background: #6058F1;
+    width: 75%;
+    height: 89px;
+    bottom: -90px;
+    left: 0;
+    content: "";
+    position: absolute;
+    border-top-right-radius: 136%;
+    transition: .5s;
+}
+
+.team-social-link svg {
+    width: 15px;
+    height: 15px;
+    color: #fff;
+}
+
+.team-social-link a {
+    margin-right: 5px;
+}
+
+.team-item:hover .team-social-link {
+    opacity: 1;
+    visibility: visible;
+    bottom: 11px;
+}
+
+.team-item:hover .team-img:after {
+    visibility: visible;
+    opacity: 1;
+    bottom: -33px;
+}
+
+.team-info h4 {
+    font-size: 18px;
+    color: #1C2D41;
+    margin-bottom: 10px;
+}
+.section-heading p {
+    color: #556170;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.team-info {
+    padding: 0 30px;
+}
+
+.team-info span {
+    color: #556170;
+    font-size: 14px;
+}
+/* Post Grid */
+.post-grid-area{
+    background-image: url(assets/img/shape-blog.png);
+    background-size: cover;
+    background-position: center center;
+}
+.post-gr-infot h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.post-gr-infot .readmore {
+    color: #6058F1;
+    font-size: 14px;
+}
+.post-img {
+    margin-bottom: 15px;
+}
+.post-grid-item {
+    margin-bottom: 50px;
+}
+/* Cta Section */
+.cta-item {
+    background: #FFE2E2;
+    padding: 50px 30px;
+}
+.cta-area {
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+.cta-item h1 {
+    color: #1C2D41;
+    font-size: 44px;
+    margin-bottom: 25px;
+}
+
+.cta-item p {
+    font-weight: 500;
+    padding: 0 60px;
+    margin-bottom: 25px;
+    min-height: 90px;
+}
+
+.cta-item a {
+    background: #fff;
+    color: #101030;
+    font-size: 20px;
+    font-weight: 700;
+    width: 330px;
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.cta-item.cta-right {
+    background: #FEE5BD;
+}
+
+/* Footer CSS */
+.welrn-footer-area {
+    background: #021E40;
+    padding: 100px 0;
+    position: relative;
+}
+.f-shape {
+    position: absolute;
+}
+.f-shape.dot {
+    bottom: 25px;
+    left: 30px;
+}
+.f-shape.line {
+    top: 22%;
+    max-width: 90px;
+    margin-left: -45px;
+}
+.footer-widget p {
+    color: #fff;
+}
+.f-shape.Polygon {
+    right: 5%;
+    top: 80px;
+}
+.f-shape.Elements {
+    right: 100px;
+    bottom: 35px;
+    max-width: 85px;
+}
+.widget_nav_menu ul li a {
+    color: #fff;
+    line-height: 32px;
+}
+
+.footer-widget .widget-title {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.social-link a {
+    display: inline-block;
+    background: rgba(242, 242, 242, .22);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.social-link {
+    padding-top: 100px;
+}
+.social-link a svg {
+    width: 20px;
+}
+
+.social-link .feather-facebook {
+    color: #037BF4;
+}
+
+.social-link .feather-twitter {
+    color: #03A9F4;
+}
+
+.social-link .feather-linkedin {
+    color: #67B3FF;
+}
+
+.social-link .feather-dribbble {
+    color: #ea4c89;
+}
