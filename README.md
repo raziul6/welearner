@@ -1,10 +1,16 @@
 ## welearner
-**Develop By:**  - [raziul](https://github.com/raziul6/welearner) - HTML
+**Develop By:**  - [raziul](https://github.com/raziul6/welearner)
+
 **Version:** 1.0.0
+
 **Tested up** to: 5.4
+
 **Requires PHP:** 5.6
+
 **License:** GNU General Public License v2 or later
+
 **License URI:** https://www.gnu.org/licenses/gpl-3.0.html
+
 **Text Domain:** welearner
 
 ## Description
