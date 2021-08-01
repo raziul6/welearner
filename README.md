@@ -1,5 +1,5 @@
 ## welearner
-**Develop By:**  - [raziul](https://github.com/raziul6/welearner)
+**Develop By:**  - [raziul](https://github.com/raziul6)
 
 **Version:** 1.0.0
 
@@ -37,7 +37,9 @@
 
 ## Included libraries
 **[Bootstrap](https://getbootstrap.com/)**
+
 **[Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)**
+
 **[Feather Icons](https://feathericons.com//)**
 
 ## Changelog
