@@ -36,7 +36,7 @@
 11.many more Feature
 
 ## Included libraries
-**[TGM] http://tgmpluginactivation.com/**
+**[TGM]http://tgmpluginactivation.com/**
 
 **[Bootstrap](https://getbootstrap.com/)**
 
