@@ -36,6 +36,8 @@
 11.many more Feature
 
 ## Included libraries
+**[TGM] http://tgmpluginactivation.com/**
+
 **[Bootstrap](https://getbootstrap.com/)**
 
 **[Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)**
