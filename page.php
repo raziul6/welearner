@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package welearner
+ * @package welearner theme
  */
 
 get_header();
